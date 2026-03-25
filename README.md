@@ -2,7 +2,11 @@
 
 Example binary segmentations of synthetic vascular networks for testing skeletonization, connectivity, and topology-aware metrics.
 
-These datasets provide **controlled geometries with known structure**, allowing evaluation of skeletonization methods independently of imaging noise or segmentation uncertainty.
+These datasets provide **controlled geometries**, allowing evaluation of skeletonization methods independently of imaging noise or segmentation uncertainty.
+
+<br><br>
+## Dataset Overview
+<img src="https://github.com/user-attachments/assets/e5b6f31a-a957-43fc-91d1-947737c53b8d" width="100%">
 
 ---
 <br><br>
@@ -15,8 +19,9 @@ Exhibits structured branching with minimal loop formation.
 * **Properties:**
   * Tree topology 
   * Variable vessel diameters and lengths
-  * Boundary-intersecting vessels (cropped subvolume)
+  * Single connected component
 
+* **Size:** 401 × 286 × 351 voxels (~38.4 MB)
 * **File:** `synthetic_tree.tif`
 
 ---
@@ -30,20 +35,9 @@ Designed to mimic capillary-like redundancy and complex topology.
   * Multiple interconnections between segments
   * Single connected component
 
+* **Size:** 61 × 61 × 61 voxels (~0.2 MB) 
 * **File:** `synthetic_mesh.tif`
 
----
-
-### 🔁 Synthetic Tree (Loop-Modified)
-Modified version of the synthetic tree network with **manually introduced loops**.  
-Used to evaluate sensitivity to topological errors such as artificial reconnections or missed loops.
-
-* **Properties:**
-  * Tree-derived structure
-  * Controlled loop insertion (5 loops added)
-  * Hybrid topology (between tree and mesh)
-
-* **File:** `synthetic_tree_loop_modified.tif`
 
 ---
 <br><br>
