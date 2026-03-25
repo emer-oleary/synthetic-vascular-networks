@@ -17,7 +17,7 @@ Exhibits structured branching with minimal loop formation.
   * Variable vessel diameters and lengths
   * Boundary-intersecting vessels (cropped subvolume)
 
-* **File:** `SyntheticTree.tif`
+* **File:** `synthetic_tree.tif`
 
 ---
 
@@ -30,7 +30,7 @@ Designed to mimic capillary-like redundancy and complex topology.
   * Multiple interconnections between segments
   * Single connected component
 
-* **File:** `SyntheticMesh.tif`
+* **File:** `synthetic_mesh.tif`
 
 ---
 
@@ -43,7 +43,7 @@ Used to evaluate sensitivity to topological errors such as artificial reconnecti
   * Controlled loop insertion (5 loops added)
   * Hybrid topology (between tree and mesh)
 
-* **File:** `SyntheticTree_LoopModified.tif`
+* **File:** `synthetic_tree_loop_modified.tif`
 
 ---
 <br><br>
