@@ -5,11 +5,11 @@ Example binary segmentations of synthetic vascular networks for testing skeleton
 These datasets provide **controlled geometries**, allowing evaluation of skeletonization methods independently of imaging noise or segmentation uncertainty.
 
 <br><br>
-## Dataset Overview
+
 <img src="https://github.com/user-attachments/assets/e5b6f31a-a957-43fc-91d1-947737c53b8d" width="100%">
 
 ---
-<br><br>
+
 ## 📂 Datasets
 
 ### 🌿 Synthetic Tree
