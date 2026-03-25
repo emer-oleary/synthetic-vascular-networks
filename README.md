@@ -4,7 +4,7 @@ Example binary segmentations of synthetic vascular networks for testing skeleton
 
 These datasets provide **controlled geometries**, allowing evaluation of skeletonization methods independently of imaging noise or segmentation uncertainty.
 
-<br><br>
+<br>
 
 <img src="https://github.com/user-attachments/assets/e5b6f31a-a957-43fc-91d1-947737c53b8d" width="100%">
 
@@ -40,7 +40,8 @@ Designed to mimic capillary-like redundancy and complex topology.
 
 
 ---
-<br><br>
+<br>
+
 ## 🧭 Intended Use
 
 These datasets are designed for:
@@ -55,7 +56,8 @@ They can be used alongside:
 * Spatial graph / skeletonization outputs (`.am`)
 
 ---
-<br><br>
+<br>
+
 ## ⚙️ Generation Overview
 
 The synthetic tree network was generated using a stochastic L-system framework (**V-System**), which models vessel growth using probabilistic branching rules and geometry construction.
@@ -69,7 +71,8 @@ No smoothing, pruning, or post-generation correction was applied.
 All datasets are provided directly as **binary voxel volumes**.
 
 ---
-<br><br>
+<br>
+
 ## 📦 Data Format
 
 * **Type:** 3D binary segmentation  
@@ -78,7 +81,8 @@ All datasets are provided directly as **binary voxel volumes**.
 * **Convention:** `[Z, Y, X]`
 
 ---
-<br><br>
+<br>
+
 ## 🔗 Synthetic Network Generation
 
 The synthetic tree networks were generated using the **V-System** framework, a stochastic L-system-based approach for vascular network modelling.
@@ -91,14 +95,16 @@ This framework enables generation of hierarchical vascular networks with control
 > 💡 If you want to generate your own synthetic vascular networks, this repository provides the full implementation and parameter control.
 
 ---
-<br><br>
+<br>
+
 ## 🧾 Attribution
 
 Synthetic tree networks in this dataset were generated using the V-System framework developed by the original authors.  
 Mesh-like and loop-modified networks were derived from these outputs with additional subvolume selection and manual connectivity edits.
 
 ---
-<br><br>
+<br>
+
 ## 🧾 Notes
 
 * 🧠 These datasets isolate **structural errors** from imaging artefacts  
@@ -109,7 +115,8 @@ Mesh-like and loop-modified networks were derived from these outputs with additi
   * incorrect bifurcation detection  
 
 ---
-<br><br>
+<br>
+
 ## 📌 Citation
 
 If you use these datasets in academic work, please cite the associated methodology and reference this repository.
